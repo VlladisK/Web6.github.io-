@@ -62,16 +62,16 @@ function updatePrice() {
 }
 function getPrices() {
     return {
-        prodTypes: [100, 1000, 5000],
+        prodTypes: [120, 0, 0],
         prodOptionz: {
-            Blueberry: 100,
-            Cherry: 500,
-            Dates: 1000,
+            Blueberry: 60,
+            Cherry: 75,
+            Dates: 85,
         },
         prodProperties: {
-            Banana: 50,
-            Orange: 500,
-            Grape: 1500,
+            Banana: 175,
+            Orange: 150,
+            Grape: 180,
         },
     };
 }
